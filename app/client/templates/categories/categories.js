@@ -1,26 +1,23 @@
 /*****************************************************************************/
-/* Home: Event Handlers */
+/* Categories: Event Handlers */
 /*****************************************************************************/
-Template.Hello.events({
+Template.Categories.events({
 });
 
 /*****************************************************************************/
-/* Home: Helpers */
+/* Categories: Helpers */
 /*****************************************************************************/
-Template.Hello.helpers({
-    greeting: function(){
-        return 'my lists';
-    }
+Template.Categories.helpers({
 });
 
 /*****************************************************************************/
-/* Home: Lifecycle Hooks */
+/* Categories: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Hello.onCreated(function () {
+Template.Categories.onCreated(function () {
 });
 
-Template.Hello.onRendered(function () {
+Template.Categories.onRendered(function () {
 });
 
-Template.Hello.onDestroyed(function () {
+Template.Categories.onDestroyed(function () {
 });
