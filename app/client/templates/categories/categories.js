@@ -8,6 +8,9 @@ Template.Categories.events({
 /* Categories: Helpers */
 /*****************************************************************************/
 Template.Categories.helpers({
+    lists: function(){
+        return Lists.find({}, {sort: {Category:1}});
+    }
 });
 
 /*****************************************************************************/

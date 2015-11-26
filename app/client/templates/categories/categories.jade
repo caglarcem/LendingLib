@@ -1,3 +1,8 @@
 template(name='Categories')
-  .categories
-  | Find me in app/client/templates/categories/categories
+  .title
+    h2 my stuff
+  #categories.btn-group
+    #btnNewCat.category.btn.btn-inverse &plus;
+    each lists
+      .category.btn.btn-inverse
+        = Category
